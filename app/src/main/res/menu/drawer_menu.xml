@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="General">
+        <menu>
+            <item
+                android:id="@+id/nav_home"
+                android:title="Home" />
+            <item
+                android:id="@+id/nav_event"
+                android:title="Events" />
+            <item
+                android:id="@+id/nav_speaker"
+                android:title="Speaker" />
+            <item
+                android:id="@+id/nav_Venue"
+                android:title="Venue" />
+            <item
+                android:id="@+id/nav_Exhibitor"
+                android:title="Exhibitor" />
+            <item
+                android:id="@+id/nav_Keyfact"
+                android:title="Key Facts" />
+            <item
+                android:id="@+id/nav_Attraction"
+                android:title="Attraction" />
+        </menu>
+    </item>
+    <group>
+        <item
+            android:id="@+id/nav_about"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_about_dev"
+            android:title="About Dev" />
+        <item
+            android:id="@+id/nav_Rate"
+            android:title="Rate app" />
+        <item
+            android:id="@+id/nav_Share"
+            android:title="Share with buddies" />
+    </group>
+
+</menu>
